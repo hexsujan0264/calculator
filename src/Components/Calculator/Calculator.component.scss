@@ -1,0 +1,21 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+
+    .keypad {
+        display: flex;
+        flex-direction: row;
+
+        .arithmetic-wrapper {
+            .top-keys, .numeric-keys{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                .btn-key {
+                    flex: 1 1 auto;
+                }
+            }
+        }
+    }    
+}

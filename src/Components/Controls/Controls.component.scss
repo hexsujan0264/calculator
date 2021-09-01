@@ -1,0 +1,17 @@
+.controls { 
+    display: flex;
+    flex-direction: column;
+    
+    .btn-key {
+        background-color: #5E4BB6;
+        &:hover {
+            background-color: #6954ca;
+        }
+        &.btn-equals {
+            background-color: #FEC208;
+            &:hover {
+                background-color: #f8d66e;
+            }
+        }
+    }
+}

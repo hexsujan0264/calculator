@@ -1,0 +1,15 @@
+.display {
+    width: 100%;
+    background-color: #ffffff;
+    outline: 1px solid #2e373b;
+    .result, .history {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 35px;
+        padding: 5px 10px;
+    }
+
+    .history {
+        font-size: 20px;
+    }
+}

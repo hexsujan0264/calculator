@@ -1,0 +1,13 @@
+
+.btn-key {
+    height: 60px;
+    min-width: 60px;
+    background-color: #1E2326;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #2e373b;
+    }
+}
