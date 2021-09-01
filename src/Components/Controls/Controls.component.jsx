@@ -9,6 +9,7 @@ const Controls = () => {
             {CONTROL_KEYS.map((item, index)=>(
                 <ButtonKey key={index} value={item.value} className={item.className} />
             ))}
+            
         </div>
     )
 }
