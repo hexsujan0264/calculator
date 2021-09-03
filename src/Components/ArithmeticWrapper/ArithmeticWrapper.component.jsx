@@ -2,11 +2,11 @@ import React from 'react'
 import NumericKeys from '../NumericKeys/NumericKeys.component'
 import TopKeys from '../TopKeys/TopKeys.component'
 
-const ArithmeticWrapper = () => {
+const ArithmeticWrapper = ( { handleKeyClick } ) => {
     return (
         <div className="arithmetic-wrapper">
-            <TopKeys />
-            <NumericKeys/>
+            <TopKeys handleKeyClick={handleKeyClick} />
+            <NumericKeys handleKeyClick={handleKeyClick}/>
         </div>
     )
 }

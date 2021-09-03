@@ -1,11 +1,11 @@
 import React from 'react'
 import './display.component.scss'
 
-const Display = () => {
+const Display = ({ data }) => {
     return (
         <div className="display">
-            <div className="result">2030</div>
-            <div className="history">20+30-100</div>
+            <div className="result">{ data.result }</div>
+            <div className="history">{ data.history }</div>
         </div>
     )
 }
